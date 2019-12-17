@@ -59,67 +59,102 @@
 </dl>
 <br>
 <table>
+
 <thead>
 <th colspan="9">Atrributes</th>
 </thead>
 <tbody>
 <tr>
-   <td colspan="">tr</td>
-<td colspan="8">1</td>
-</tr>
-<tr>
-    <td>border-collapse</td>
-<td colspan="8">1</td>
-</tr>
-<tr>
-    <td>border-spacing</td>
-<td colspan="8">1</td>
+   <td>tr</td>
+<td colspan="8">{tr}<br>{/tr}</td>
 </tr>
 <tr>
     <td>rowspan</td>
-<td colspan="8">1</td>
+<td colspan="8">{td rowspan:"value"}{/td}</td>
 </tr>
 <tr>
     <td>colspan</td>
-
+<td colspan="8">{td colspan:"value"}{/td}</td>
 </tr>
 <tr>
     <td>content</td>
-
-</tr>
-<tr>
-    <td>caption-side</td>
-
+    <td colspan="8">{caption} content {/caption}</td>
 </tr>
 <tr>
     <td>thead</td>
-
+    <td colspan="8">{table}<br>{thead}Table Rows{/thead}<br>{/table}</td>
 </tr>
 <tr>
     <td>tfoot</td>
-
+    <td colspan="8">{table}<br>{tfoot}Table Rows{/tfoot}<br>{/table}</td>
 </tr>
 <tr>
     <td>tbody</td>
-
+    <td colspan="8">{table}<br>{tbody}Table Rows{/tbody}<br>{/table}</td>
 </tr>
 <tr>
-    <td>id</td>
+    <td>data</td>
+    <td colspan="8">data-text="value" (text=name of the data) (value is the value of the data)</td>
+</tr>
 
-</tr>
-<tr>
-    <td>class</td>
-
-</tr>
-<tr>
-    <td>colgroup</td>
-
-</tr>
-<tr>
-    <td>vertical-align</td>
-    
-</tr>
 </tbody>
 </table>
+<br>
+<table>
+    <thead>
+        <td colspan="9">Styles</td>
+    </thead>
+    <tbody>
+    <tr>
+       <td>column-gap</td>
+       <td colspan="8">Column-gap:size (width)</td>
+    </tr>
+    <tr>
+        <td>column-rule</td>
+        <td colspan="8">column-rule:border (style of dividing line)</td>
+    </tr>
+    <tr>
+        <td>colgroup</td>
+        <td colspan="8">{table}<br>{colgroup}Columns{/colgroup}</td>
+    </tr>
+    <tr>
+        <td>vertical-align</td>
+        <td colspan="8"></td>
+    </tr>
+    <td>border-collapse</td>
+    <td colspan="8">border-collapse:(collapse or separate)</td>
+    </tr>
+    <tr>
+        <td>border-spacing</td>
+    <td colspan="8">border-spacing:value;</td> 
+    </tr>
+    <tr>
+        <td>caption-side</td>
+        <td colspan="8">Caption-side:position; (top or bottom)</td>
+    </tr>
+    <tr>
+        <td>Display</td>
+        <td colspan="8">Display:table;</td>
+    </tr>
+    <tr>
+        <td>Orphans</td>
+        <td colspan="8">Orphans: value; (minimum number of lines stranded before a column break)</td>
+    </tr>
+    <tr>
+        <td>Widows</td>
+        <td colspan="8">Widows:value; (minimum number of lines placed after a column breaks)</td>
+    </tr>
+    <tr>
+        <td>break</td>
+        <td colspan="8">Break-before/after/inside(auto or avoid):type; (Auto,Always,Avoid)</td>
+    </tr>
+    <tr>
+        <td>Column-Span</td>
+        <td colspan="8">Column-Span:span (none,squash,vertical scroll,collapse by rows, collapse by columns)</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<a href="index.html">Back to homepage</a>
 </body>
 </html>
