@@ -21,6 +21,21 @@ dl div{
     animation-duration: 10s;
 }
 
+dl{ 
+    display: table; 
+    border-collapse: collapse; 
+    width: 900px; 
+    height: 500px; 
+    margin-left: 20em; 
+    border:5px solid black; 
+} 
+ 
+dt,dd{ 
+    display: table-cell; 
+   border: 5px solid black; 
+    vertical-align: middle; 
+    padding: 5px; 
+    text-align: center;} 
 
 @keyframes reveal{
 0%{background-color:rgba(0,0,0,1);}
